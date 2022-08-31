@@ -8,8 +8,8 @@ from sklearn.metrics import average_precision_score, mean_squared_error
 import functools
 import warnings
 
-from augmentations import *
-from utils import *
+from .augmentations import *
+from .utils import *
 
 
 def _set_augmentations(augs_params):    
